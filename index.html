@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>HappyBirthDayBabygirl</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="myCss.css">
+  <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+  <script src="myJS.js"></script>
+
+
+    <!-- happy Bday music -->
+    <audio class="song" loops controls>
+    <source src="https://www.8notes.com/school/mp32/piano/happy_birthday.mp3"></audio>
+    <script>
+        
+        
+        (function(){
+             var audio = $('.song')[0];
+             try{
+             navigator.vibrate(20);}
+             catch(Exception){
+                 console.log("Vibrate mode is not supported")
+             }
+             audio.play();        
+     }());
+        </script>  
+     
+    </script>
+
+    
+    <!-- happy Bday music -->
+
+</head>
+
+<body style="color:#fff;">
+    
+    <center>
+    
+  <div class="cake">
+    <div class="plate"></div>
+    <div class="layer layer-bottom"></div>
+    <div class="layer layer-middle"></div>
+    <div class="layer layer-top"></div>
+    <div class="icing"></div>
+    <div class="drip drip1"></div>
+    <div class="drip drip2"></div>
+    <div class="drip drip3"></div>
+    <div class="candle">
+        <div class="flame"></div>
+    </div>
+</div>
+
+ <link href="https://fonts.googleapis.com/css?family=Wendy+One" rel="stylesheet" type="text/css">
+        <div class="container">
+            <div class="balloon">
+                <div><span>😎</span>
+                </div>
+                <div><span>B</span>
+                </div>
+                <div><span>D</span>
+                </div>
+                <div><span>A</span>
+                </div>
+                <div><span>Y</span>
+                </div>
+                <div><span>💕</span>
+                </div>
+            </div>
+             <h1>WanYiWeng or Babygirl</h1>
+
+        </div>
+        
+
+  </center>
+</body>
+</html>
